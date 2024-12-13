@@ -8,10 +8,10 @@ public class Main {
         int clientOS = 2; // Операционная система клиента
 
         if (clientOS == 0) {
-            System.out.println("Установите верисю приложения для iOS.");
+            System.out.println("Установите верисю приложения для iOS по ссылке.");
         }
         else if (clientOS == 1){
-            System.out.println("Установите версию приложения для Andorid.");
+            System.out.println("Установите версию приложения для Andorid по ссылке.");
         }
         else {
             System.out.println("Неизвестная операционная система.");
@@ -20,22 +20,19 @@ public class Main {
         int clientDeviceYear = 2015; // год выпуска устройства
         int newClientOS = 0; // Операционная система клиента
 
-        if (newClientOS == 0) {
+        if (newClientOS == 0)
             if (clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке.");}
             else {
-                System.out.println("Установите верисю приложения для iOS.");}
-            }
-        else if (newClientOS == 1){
+                System.out.println("Установите верисю приложения для iOS по ссылке.");}
+
+        else if (newClientOS == 1)
             if (clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке.");}
             else {
-                System.out.println("Установите версию приложения для Andorid.");
+                System.out.println("Установите версию приложения для Andorid по ссылке.");
             }
-        }
-        else {
-            System.out.println("Неизвестная операционная система.");
-        }
+
 
 // Задача 3
         int year = 2008; // Год
